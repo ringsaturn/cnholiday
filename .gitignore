@@ -1,0 +1,5 @@
+venv/
+.vscode/
+poetry.lock
+dist/
+cnholiday.egg-info/

@@ -1,0 +1,17 @@
+language: python
+
+dist: xenial
+
+python:
+  - "3.6"
+  - "3.7"
+  - "3.8"
+
+before_install:
+  - pip install poetry
+
+install:
+  - poetry install
+
+script:
+  - sh bin.sh test

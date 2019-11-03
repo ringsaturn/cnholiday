@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "cnholiday"
+version = "0.1.1-alpha.0"
+description = ""
+authors = ["ringsaturn <ringsaturn.me@gmail.com>"]
+
+[tool.poetry.scripts]
+app = "cnholiday:app"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+pre-commit = "^1.20"
+
+[tool.poetry.dev-dependencies]
+pytest = "=5.0.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

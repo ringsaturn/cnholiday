@@ -1,94 +1,96 @@
 {
-    "2019-01-01": {
-        "holiday": true,
-        "name": "元旦"
-    },
-    "2019-02-02": {
-        "holiday": false,
-        "name": "春节调休上班"
-    },
-    "2019-02-03": {
-        "holiday": false,
-        "name": "春节调休上班"
-    },
-    "2019-02-04": {
-        "holiday": true,
-        "name": "春节"
-    },
-    "2019-02-05": {
-        "holiday": true,
-        "name": "春节"
-    },
-    "2019-02-06": {
-        "holiday": true,
-        "name": "春节"
-    },
-    "2019-02-07": {
-        "holiday": true,
-        "name": "春节"
-    },
-    "2019-02-08": {
-        "holiday": true,
-        "name": "春节"
-    },
-    "2019-02-09": {
-        "holiday": true,
-        "name": "春节"
-    },
-    "2019-02-10": {
-        "holiday": true,
-        "name": "春节"
-    },
-    "2019-04-05": {
-        "holiday": true,
-        "name": "清明"
-    },
-    "2019-05-01": {
-        "holiday": true,
-        "name": "劳动节"
-    },
-    "2019-06-07": {
-        "holiday": true,
-        "name": "端午节"
-    },
-    "2019-09-13": {
-        "holiday": true,
-        "name": "中秋节"
-    },
-    "2019-09-29": {
-        "holiday": true,
-        "name": "国庆节调休上班"
-    },
-    "2019-10-01": {
-        "holiday": true,
-        "name": "国庆节"
-    },
-    "2019-10-02": {
-        "holiday": true,
-        "name": "国庆节"
-    },
-    "2019-10-03": {
-        "holiday": true,
-        "name": "国庆节"
-    },
-    "2019-10-04": {
-        "holiday": true,
-        "name": "国庆节"
-    },
-    "2019-10-05": {
-        "holiday": true,
-        "name": "国庆节"
-    },
-    "2019-10-06": {
-        "holiday": true,
-        "name": "国庆节"
-    },
-    "2019-10-07": {
-        "holiday": true,
-        "name": "国庆节"
-    },
-    "2019-10-12": {
-        "holiday": true,
-        "name": "国庆节调休上班"
+    "2019": {
+        "2019-01-01": {
+            "holiday": true,
+            "name": "元旦"
+        },
+        "2019-02-02": {
+            "holiday": false,
+            "name": "春节调休上班"
+        },
+        "2019-02-03": {
+            "holiday": false,
+            "name": "春节调休上班"
+        },
+        "2019-02-04": {
+            "holiday": true,
+            "name": "春节"
+        },
+        "2019-02-05": {
+            "holiday": true,
+            "name": "春节"
+        },
+        "2019-02-06": {
+            "holiday": true,
+            "name": "春节"
+        },
+        "2019-02-07": {
+            "holiday": true,
+            "name": "春节"
+        },
+        "2019-02-08": {
+            "holiday": true,
+            "name": "春节"
+        },
+        "2019-02-09": {
+            "holiday": true,
+            "name": "春节"
+        },
+        "2019-02-10": {
+            "holiday": true,
+            "name": "春节"
+        },
+        "2019-04-05": {
+            "holiday": true,
+            "name": "清明"
+        },
+        "2019-05-01": {
+            "holiday": true,
+            "name": "劳动节"
+        },
+        "2019-06-07": {
+            "holiday": true,
+            "name": "端午节"
+        },
+        "2019-09-13": {
+            "holiday": true,
+            "name": "中秋节"
+        },
+        "2019-09-29": {
+            "holiday": true,
+            "name": "国庆节调休上班"
+        },
+        "2019-10-01": {
+            "holiday": true,
+            "name": "国庆节"
+        },
+        "2019-10-02": {
+            "holiday": true,
+            "name": "国庆节"
+        },
+        "2019-10-03": {
+            "holiday": true,
+            "name": "国庆节"
+        },
+        "2019-10-04": {
+            "holiday": true,
+            "name": "国庆节"
+        },
+        "2019-10-05": {
+            "holiday": true,
+            "name": "国庆节"
+        },
+        "2019-10-06": {
+            "holiday": true,
+            "name": "国庆节"
+        },
+        "2019-10-07": {
+            "holiday": true,
+            "name": "国庆节"
+        },
+        "2019-10-12": {
+            "holiday": true,
+            "name": "国庆节调休上班"
+        }
     }
 }
