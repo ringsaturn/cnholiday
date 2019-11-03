@@ -1,8 +1,15 @@
 [tool.poetry]
 name = "cnholiday"
 version = "0.1.1-alpha.0"
-description = ""
-authors = ["ringsaturn <ringsaturn.me@gmail.com>"]
+description = "查询某天是否放假"
+authors = [
+    "ringsaturn <ringsaturn.me@gmail.com>"
+]
+readme = 'README.md'
+repository = "https://github.com/ringsaturn/cnholiday"
+homepage = "https://github.com/ringsaturn/cnholiday"
+documentation = "https://ringsaturn.github.io/cnholiday/"
+# keywords = ['packaging', 'poetry']
 
 [tool.poetry.scripts]
 app = "cnholiday:app"

@@ -1,4 +1,4 @@
-"""If CN holiday?
+"""If the day is China holiday?
 """
 
 import json
@@ -17,26 +17,42 @@ def load_data(json_path: str) -> Dict:
 class CNHoliday:
     data = load_data(os.path.join(os.path.dirname(__file__), DATA_PATH))
 
-    def check(self, datepoint: datetime) -> bool:
-        if str(datepoint) in self.data and self.data[str(datepoint)]:
-            # if in json file and true
-            return True
-        elif str(datepoint) in self.data and not self.data[str(datepoint)]:
-            # if in json file and false
-            return False
-        elif datepoint.weekday() in [5, 6]:
+    def _check_data(self, datepoint: datetime) -> bool:
+        """Lookup JSON.
+        """
+        _year = str(datepoint.year)
+        if _year in self.data:
+            _year_dict = self.data[_year]
+            if datepoint.__format__("%Y-%m-%d") in _year_dict:
+                return _year_dict[datepoint.__format__("%Y-%m-%d")]["holiday"]
+
+    def _check_cal(self, datepoint: datetime) -> bool:
+        """Lookup Calendar.
+        """
+        if datepoint.weekday() in [5, 6]:
             return True
         else:
             return False
 
+    def check(self, datepoint: datetime) -> bool:
+        """Call self.func and return True/False.
+        """
+        _data_resp = self._check_data(datepoint)
+        if _data_resp is not None:
+            return _data_resp
+        else:
+            return self._check_cal(datepoint)
+
     def check_shift(self, datepoint: datetime, shift: int = 1) -> bool:
+        """Shift input date's `day`.
+        """
         datepoint = datepoint + timedelta(days=shift)
         return self.check(datepoint)
 
 
 if __name__ == "__main__":
     cnholiday = CNHoliday()
-    _day = datetime(2019, 10, 31)
+    _day = datetime(2019, 10, 1)
     print(cnholiday.check(_day))
     print(cnholiday.check_shift(_day))
     print(cnholiday.check_shift(_day, shift=2))
