@@ -2,6 +2,12 @@
 
 数据来源: <http://www.gov.cn/zhengce/content/2018-12/06/content_5346276.htm>
 
+安装：
+
+```sh
+pip install cnholiday
+```
+
 用法：
 
 ```python

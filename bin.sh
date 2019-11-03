@@ -7,10 +7,7 @@ if [ x"$SERVICE" = x"test"  ]; then
 elif [ x"$SERVICE" = x"tests"  ]; then
     poetry install
     exec poetry run pytest tests/
-elif [ x"$SERVICE" = x"test-release" ]; then
-    rm -rf dist/
-    poetry config repositories.test https://test.pypi.org/simple
-    exec poetry publish --build --repository=test
 elif [ x"$SERVICE" = x"release" ]; then
+    rm -rf dist/
     exec poetry publish --build
 fi
