@@ -11,13 +11,19 @@ pip install cnholiday
 用法：
 
 ```python
-from cnholiday import CNHoliday
-
-
-cnholiday = CNHoliday()
-_day = datetime(2019, 10, 1)
-print(cnholiday.check(_day))
-print(cnholiday.check_shift(_day))
-print(cnholiday.check_shift(_day, shift=2))
-print(cnholiday.check_shift(_day, shift=3))
+>>> from datetime import datetime
+>>>
+>>> from cnholiday import CNHoliday
+>>>
+>>>
+>>> cnholiday = CNHoliday()
+>>> _day = datetime(2019, 10, 1)
+>>> print(cnholiday.check(_day))
+True
+>>> print(cnholiday.check_shift(_day))
+True
+>>> print(cnholiday.check_shift(_day, shift=2))
+True
+>>> print(cnholiday.check_shift(_day, shift=3))
+True
 ```
