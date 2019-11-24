@@ -14,4 +14,4 @@ install:
   - poetry install
 
 script:
-  - sh bin.sh test
+  - ./bin test
