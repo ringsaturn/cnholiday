@@ -14,4 +14,4 @@ install:
   - poetry install
 
 script:
-  - ./bin test
+  - ./ops.sh test
