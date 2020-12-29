@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "cnholiday"
-version = "0.1.2-alpha.1"
+version = "0.2.0"
 description = "查询某天是否放假"
 authors = [
     "ringsaturn <ringsaturn.me@gmail.com>"
