@@ -230,5 +230,159 @@
             "holiday": false,
             "name": "国庆节调休上班"
         }
+    },
+    "2021": {
+        "2020-01-01": {
+            "holiday": true,
+            "name": "元旦"
+        },
+        "2020-01-02": {
+            "holiday": true,
+            "name": "元旦"
+        },
+        "2020-01-03": {
+            "holiday": true,
+            "name": "元旦"
+        },
+        "2020-02-07": {
+            "holiday": false,
+            "name": "春节调休上班"
+        },
+        "2020-02-11": {
+            "holiday": true,
+            "name": "春节"
+        },
+        "2020-02-12": {
+            "holiday": true,
+            "name": "春节"
+        },
+        "2020-02-13": {
+            "holiday": true,
+            "name": "春节"
+        },
+        "2020-02-14": {
+            "holiday": true,
+            "name": "春节"
+        },
+        "2020-02-15": {
+            "holiday": true,
+            "name": "春节"
+        },
+        "2020-02-16": {
+            "holiday": true,
+            "name": "春节"
+        },
+        "2020-02-17": {
+            "holiday": true,
+            "name": "春节"
+        },
+        "2020-02-20": {
+            "holiday": false,
+            "name": "春节调休上班"
+        },
+        "2020-04-03": {
+            "holiday": true,
+            "name": "清明节"
+        },
+        "2020-04-04": {
+            "holiday": true,
+            "name": "清明节"
+        },
+        "2020-04-05": {
+            "holiday": true,
+            "name": "清明节"
+        },
+        "2020-04-25": {
+            "holiday": false,
+            "name": "劳动节调休上班"
+        },
+        "2020-05-01": {
+            "holiday": true,
+            "name": "劳动节"
+        },
+        "2020-05-02": {
+            "holiday": true,
+            "name": "劳动节"
+        },
+        "2020-05-03": {
+            "holiday": true,
+            "name": "劳动节"
+        },
+        "2020-05-04": {
+            "holiday": true,
+            "name": "劳动节"
+        },
+        "2020-05-05": {
+            "holiday": true,
+            "name": "劳动节"
+        },
+        "2020-05-08": {
+            "holiday": false,
+            "name": "劳动节调休上班"
+        },
+        "2020-06-12": {
+            "holiday": true,
+            "name": "端午节"
+        },
+        "2020-06-13": {
+            "holiday": true,
+            "name": "端午节"
+        },
+        "2020-06-14": {
+            "holiday": true,
+            "name": "端午节"
+        },
+        "2020-09-18": {
+            "holiday": false,
+            "name": "中秋节调休上班"
+        },
+        "2020-09-19": {
+            "holiday": true,
+            "name": "中秋节"
+        },
+        "2020-09-20": {
+            "holiday": true,
+            "name": "中秋节"
+        },
+        "2020-09-21": {
+            "holiday": true,
+            "name": "中秋节"
+        },
+        "2020-09-26": {
+            "holiday": false,
+            "name": "国庆节调休上班"
+        },
+        "2020-10-01": {
+            "holiday": true,
+            "name": "国庆节"
+        },
+        "2020-10-02": {
+            "holiday": true,
+            "name": "国庆节"
+        },
+        "2020-10-03": {
+            "holiday": true,
+            "name": "国庆节"
+        },
+        "2020-10-04": {
+            "holiday": true,
+            "name": "国庆节"
+        },
+        "2020-10-05": {
+            "holiday": true,
+            "name": "国庆节"
+        },
+        "2020-10-06": {
+            "holiday": true,
+            "name": "国庆节"
+        },
+        "2020-10-07": {
+            "holiday": true,
+            "name": "国庆节"
+        },
+        "2020-10-09": {
+            "holiday": false,
+            "name": "国庆节调休上班"
+        }
     }
 }
